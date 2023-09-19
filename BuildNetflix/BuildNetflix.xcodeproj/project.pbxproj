@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0714362AB992D7006CE7A7 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0714352AB992D7006CE7A7 /* MovieDetail.swift */; };
 		FB0D83EE2AAA0B8500F1CF2E /* BuildNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D83ED2AAA0B8500F1CF2E /* BuildNetflixApp.swift */; };
 		FB0D83F02AAA0B8500F1CF2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D83EF2AAA0B8500F1CF2E /* ContentView.swift */; };
 		FB0D83F22AAA0B8700F1CF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0D83F12AAA0B8700F1CF2E /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0714352AB992D7006CE7A7 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		FB0D83EA2AAA0B8500F1CF2E /* BuildNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D83ED2AAA0B8500F1CF2E /* BuildNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildNetflixApp.swift; sourceTree = "<group>"; };
 		FB0D83EF2AAA0B8500F1CF2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB0714372AB99381006CE7A7 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB0D83FB2AAA103300F1CF2E /* HomeView.swift */,
+				FB0D84072AAB674200F1CF2E /* HomeVM.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		FB0714382AB995D2006CE7A7 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB0D84092AAC071300F1CF2E /* TopMoviePreview.swift */,
+				FB0D840B2AAC174400F1CF2E /* SmallVerticalButton.swift */,
+				FB0D840D2AAC1BA900F1CF2E /* WhiteButton.swift */,
+				FB0D84032AAA10D400F1CF2E /* StandardHomeMovie.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		FB0714392AB995E7006CE7A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB0D84002AAA10AA00F1CF2E /* movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB07143A2AB995F0006CE7A7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB0D84052AAA110C00F1CF2E /* GlobalHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FB0D83E12AAA0B8500F1CF2E = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +110,7 @@
 				FB0D83ED2AAA0B8500F1CF2E /* BuildNetflixApp.swift */,
 				FB0D83EF2AAA0B8500F1CF2E /* ContentView.swift */,
 				FB0D84022AAA10AF00F1CF2E /* iOS */,
+				FB0714352AB992D7006CE7A7 /* MovieDetail.swift */,
 				FB0D83F12AAA0B8700F1CF2E /* Assets.xcassets */,
 				FB0D83F32AAA0B8700F1CF2E /* Preview Content */,
 			);
@@ -89,14 +128,10 @@
 		FB0D84022AAA10AF00F1CF2E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FB0D83FB2AAA103300F1CF2E /* HomeView.swift */,
-				FB0D84092AAC071300F1CF2E /* TopMoviePreview.swift */,
-				FB0D840B2AAC174400F1CF2E /* SmallVerticalButton.swift */,
-				FB0D840D2AAC1BA900F1CF2E /* WhiteButton.swift */,
-				FB0D84072AAB674200F1CF2E /* HomeVM.swift */,
-				FB0D84002AAA10AA00F1CF2E /* movie.swift */,
-				FB0D84032AAA10D400F1CF2E /* StandardHomeMovie.swift */,
-				FB0D84052AAA110C00F1CF2E /* GlobalHelpers.swift */,
+				FB0714372AB99381006CE7A7 /* HomeViews */,
+				FB0714382AB995D2006CE7A7 /* HelperViews */,
+				FB0714392AB995E7006CE7A7 /* Model */,
+				FB07143A2AB995F0006CE7A7 /* Helpers */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -187,6 +222,7 @@
 				FB0D83EE2AAA0B8500F1CF2E /* BuildNetflixApp.swift in Sources */,
 				FB0D840C2AAC174400F1CF2E /* SmallVerticalButton.swift in Sources */,
 				FB0D840E2AAC1BA900F1CF2E /* WhiteButton.swift in Sources */,
+				FB0714362AB992D7006CE7A7 /* MovieDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
